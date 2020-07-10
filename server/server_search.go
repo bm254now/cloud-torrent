@@ -145,7 +145,7 @@ var defaultSearchConfig = []byte(`{
 	},
 	"tpb": {
 		"name": "The Pirate Bay",
-		"url": "https://thepiratebay.org/search/{{query}}/{{page:0}}/7//",
+		"url": "https://thepiratebay.org/search/{{query}}/{{page:1}}/7//",
 		"list": "#searchResult > tbody > tr",
 		"result": {
 			"name":"a.detLink",
