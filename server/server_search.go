@@ -126,7 +126,7 @@ var defaultSearchConfig = []byte(`{
 	},
 	"abb": {
 		"name": "The Audiobook Bay",
-		"url": "http://audiobookbay.me/page/{{page:1}}?s={{query}}",
+		"url": "http://audiobookbay.nl/?s={{query}}",
 		"list": "#content > div",
 		"result": {
 			"name":["div.postTitle > h2 > a","@title"],
@@ -145,7 +145,7 @@ var defaultSearchConfig = []byte(`{
 	},
 	"tpb": {
 		"name": "The Pirate Bay",
-		"url": "https://thepiratebay.org/search/{{query}}/{{page:1}}/7//",
+		"url": "https://thepiratebay.org/search.php?q={{query}}&all=on&search=Pirate+Search&page=0",
 		"list": "#searchResult > tbody > tr",
 		"result": {
 			"name":"a.detLink",
